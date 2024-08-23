@@ -3,9 +3,11 @@ import '../css/TodoItem.css'
 function TodoItem({ text, completed }) {
   return (
     <li>
-      <span>V</span>
+      <span className={`Icon Icon-check ${completed && 'Icon-check--active'}`}>
+        Check
+      </span>
       <p>{text}</p>
-      <span>X</span>
+      <span className="Icon Icon-delete">X</span>
     </li>
   )
 }

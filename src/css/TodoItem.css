@@ -10,3 +10,37 @@ li{
     justify-content: center;
     margin-left: 10px;
 }
+
+.Icon{
+    cursor: pointer;
+}
+
+.Icon-check{
+    left: 12px;
+}
+
+.Icon-check:hover{
+    color: rgb(62, 145, 62);
+}
+
+.Icon-check--active{
+    color: rgb(0, 255, 0);
+}
+
+.Icon-delete{
+    top: -24px;
+    right: 0;
+}
+
+.Icon-delete:hover{
+    color: red;
+}
+
+.TodoItem-p{
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.TodoItem-p--complete{
+    text-decoration: line-through;
+}
