@@ -1,23 +1,22 @@
+import { TodoCounter } from './TodoCounter'
+import { TodoItem } from './TodoItem'
+import { CreateTodoButton } from './CreateTodoButton'
+import { TodoList } from './TodoList'
 import './App.css'
 
 function App() {
 
   return (
     <>
-      <TodoItem/>
-      <TodoItem/>
-      <TodoItem/>
+      <TodoCounter/>
+      <TodoList>
+        <TodoItem/>
+        <TodoItem/>
+        <TodoItem/>
+        <TodoItem/>
+      </TodoList>
+      <CreateTodoButton/> 
     </>
-  )
-}
-
-function TodoItem() {
-  return (
-    <li>
-      <span>V</span>
-      <p>Llorar con la llorona</p>
-      <span>X</span>
-    </li>
   )
 }
 
