@@ -1,0 +1,18 @@
+body{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p{
+    font-family:'Courier New', Courier, monospace;
+}
+
+.bodyApp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

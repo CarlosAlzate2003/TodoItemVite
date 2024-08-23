@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+}
+
+.navb{
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    gap: 30rem;
+    box-shadow: 5px 2px 5px #007BFF;
+}
+
+
+p{
+    display: flex;
+    align-items: center;
+}
+
+h2{
+    font-family: 'Courier New', Courier, monospace;
+}

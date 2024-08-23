@@ -1,0 +1,20 @@
+input{
+    border: 2px solid #ccc;
+    border-radius: 25px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    outline: none;
+    padding: 12px 20px;
+}
+
+input::placeholder{
+    color: #999;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+input:focus{
+    border-color: #007BFF;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
+}
+
