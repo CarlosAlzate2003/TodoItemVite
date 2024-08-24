@@ -36,11 +36,19 @@ li{
     color: red;
 }
 
-.TodoItem-p{
+.TodoItem-p {
     font-size: 18px;
     line-height: 24px;
+    position: relative;
 }
 
-.TodoItem-p--complete{
-    text-decoration: line-through;
+.TodoItem-p--complete::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 2px; /* Grosor de la línea */
+    background-color: rgb(43, 255, 0); /* Color de la línea */
+    transform: translateY(-50%);
 }
