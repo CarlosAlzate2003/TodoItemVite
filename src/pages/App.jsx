@@ -1,3 +1,4 @@
+import React from 'react'
 import { TodoCounter } from '../components/TodoCounter'
 import { TodoItem } from '../components/TodoItem'
 import { CreateTodoButton } from '../components/CreateTodoButton'
@@ -13,6 +14,7 @@ const defaultTodos = [
 ]
 
 function App() {
+  const [searchValue, setSearchValue] = React.useState('')
   return (
     <>
       <NavBar />
@@ -29,7 +31,10 @@ function App() {
         </TodoList>
         <div>
           <CreateTodoButton />
-          <InputAddTodo />
+          <InputAddTodo
+            searchValue={searchValue}
+            setSearchValue={setSearchValue}
+          />
         </div>
       </div>
     </>
