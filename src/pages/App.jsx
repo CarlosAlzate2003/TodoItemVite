@@ -13,7 +13,11 @@ const defaultTodos = [
   { text: 'Lavar el coche', completed: false },
 ]
 
+// localStorage.setItem('todos', defaultTodos)
+// localStorage.removeItem('todos')
+
 function App() {
+  // const defaultTodos = localStorage.getItem('todos')
   const [todos, setTodos] = React.useState(defaultTodos)
   const [searchValue, setSearchValue] = React.useState('')
 

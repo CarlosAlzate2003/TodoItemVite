@@ -1,7 +1,6 @@
 import '../css/InputAddTodo.css'
 
 const InputAddTodo = ({ searchValue, setSearchValue }) => {
-  console.log(searchValue)
   return (
     <input
       type="text"
