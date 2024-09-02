@@ -6,17 +6,20 @@ body{
     width: 100%;
     height: 4rem;
     display: flex;
-    justify-content: center;
-    gap: 30rem;
+    justify-content: space-between;
     box-shadow: 5px 2px 5px #007BFF;
 }
 
-
-p{
-    display: flex;
-    align-items: center;
+.navb-design{
+    margin-left: 1rem;
 }
 
-h2{
+.navb-date{
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+}
+
+.navb-title{
     font-family: 'Courier New', Courier, monospace;
 }

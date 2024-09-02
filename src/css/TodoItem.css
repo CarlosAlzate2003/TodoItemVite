@@ -11,30 +11,6 @@ li{
     margin-left: 10px;
 }
 
-.Icon{
-    cursor: pointer;
-}
-
-.Icon-check{
-    left: 12px;
-}
-
-.Icon-check:hover{
-    color: rgb(62, 145, 62);
-}
-
-.Icon-check--active{
-    color: rgb(0, 255, 0);
-}
-
-.Icon-delete{
-    top: -24px;
-    right: 0;
-}
-
-.Icon-delete:hover{
-    color: red;
-}
 
 .TodoItem-p {
     font-size: 18px;
@@ -51,4 +27,9 @@ li{
     height: 2px; /* Grosor de la línea */
     background-color: rgb(43, 255, 0); /* Color de la línea */
     transform: translateY(-50%);
+}
+
+.Icon-svg{
+    width: 24px;
+    height: 24px;
 }

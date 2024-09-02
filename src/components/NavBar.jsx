@@ -6,9 +6,9 @@ const NavBar = () => {
   const fecha = hoy.toLocaleDateString()
   return (
     <nav className="navb">
-      <img src={design} alt="Design icon" />
-      <h2>Todo List</h2>
-      <p>{fecha}</p>
+      <img className="navb-design" src={design} alt="Design icon" />
+      <h2 className="navb-title">Todo List</h2>
+      <p className="navb-date">{fecha}</p>
     </nav>
   )
 }

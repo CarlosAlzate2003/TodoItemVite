@@ -1,0 +1,30 @@
+.Icon-container{
+    cursor: pointer;
+}
+
+.Icon-container-check{
+    left: 12px;
+}
+
+.Icon-container-check:hover{
+    color: rgb(62, 145, 62);
+}
+
+.Icon-container-check--active{
+    color: rgb(0, 255, 0);
+}
+
+.Icon-container-delete{
+    top: -24px;
+    right: 0;
+}
+
+.Icon-container-delete:hover{
+    color: red;
+}
+
+.Icon-svg{
+    width: 24px;
+    height: 24px;
+}
+
